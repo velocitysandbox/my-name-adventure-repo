@@ -5,7 +5,7 @@ class Oven
     @cookie_batch = cookie_batch
   end
 
-  def bake_cookies(time)
+  def bake_cookie(time)
     @cookie_batch.map {|cookie| bake(cookie, time) }
   end
 
